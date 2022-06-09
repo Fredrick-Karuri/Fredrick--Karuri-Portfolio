@@ -138,8 +138,8 @@ let info = {
       ],
       technologies: ['CommerceJs', 'React.js', 'Netlify'],
       category: 'E-commerce Site',
-      github: 'https://github.com/Natain/todo-application',
-      visit: 'https://natainbogdan.netlify.app/',
+      github: 'https://github.com/Fredrick-Karuri/e_commerce',
+      visit: 'https://artohm.netlify.app/',
       description:
       'I made this site for my stickers business. Check it and even order stickers today!  ',
     },
@@ -166,25 +166,26 @@ let info = {
       ' It is a design site, where one can see the various designs done and reach out for a design  ',
     },
     {
-      name: 'Gitscores',
+      name: 'InfoYou',
       pictures: [
         {
-          img: require('./src/assets/portfolio/Gitscores/one.png')
+          img: require('./src/assets/portfolio/InfoYou/Infoyou.png')
         },
         {
-          img: require('./src/assets/portfolio/Gitscores/two.png')
+          img: require('./src/assets/portfolio/InfoYou/infoyou3.png')
+          
         },
         {
-          img: require('./src/assets/portfolio/Gitscores/three.png')
+          img: require('./src/assets/portfolio/InfoYou/infoyou2.png')
         }
       ],
-      technologies: ['JavaScript', 'CSS', 'EJS', 'Herokuapp'],
-      category: 'Scoring app for Github',
-      github: 'https://github.com/Natain/gitscores',
-      date: 'Aug, 2021 - Sep, 2021',
+      technologies: ['Python', 'Django', 'Html', 'Herokuapp'],
+      category: 'Web App',
+      github: 'https://github.com/Fredrick-Karuri/InfoYou',
+      date: 'Apr, 2020 - June, 2020',
       visit: 'https://gitscores.herokuapp.com/',
       description:
-        'Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn.'
+      'A Blog site. A crafted site to incorporate artists with original content and readers with an affinity for great content!',
     }
   ],
   recommendations: [

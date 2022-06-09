@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >portfolio.</span
+          >Portfolio.</span
         >
       </div>
       <hr
@@ -101,7 +101,7 @@
                   class="btn-sm btn btn-outline-secondary no-outline"
                   @click.prevent="showDesignModalFn(design)"
                 >
-                  read more
+                  Read more
                 </button>
               </div>
             </div>
