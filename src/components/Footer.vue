@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Natain Bogdan</span>
+          <span> &copy; {{ year }}, Copyright: Fredrick Karuri</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -23,12 +23,12 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
             >
               <i class="fab fa-angellist"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
@@ -42,39 +42,39 @@
   </div>
 </template>
 
-
 <script>
-import info from "../../info";
+import info from '../../info'
 
 export default {
-  name: "Footer",
-  data() {
+  name: 'Footer',
+  data () {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
       angellist: info.links.angellist,
       resume: info.links.resume,
-    };
+      year: new Date().getFullYear()
+    }
   },
   methods: {
-    open(link) {
+    open (link) {
       switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
-          break;
-        case "github":
-          window.open(this.github, "_blank");
-          break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
-          break;
-        case "resume":
-          window.open(this.resume, "_blank");
-          break;
+        case 'linkedin':
+          window.open(this.linkedin, '_blank')
+          break
+        case 'github':
+          window.open(this.github, '_blank')
+          break
+        case 'angellist':
+          window.open(this.angellist, '_blank')
+          break
+        case 'resume':
+          window.open(this.resume, '_blank')
+          break
       }
-    },
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>
