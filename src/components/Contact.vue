@@ -149,14 +149,14 @@ export default {
     sendEmail() {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
-        this.snackbarMessage = "Please all the fields";
+        this.snackbarMessage = "Please fill all the fields!";
         this.snackbarColor = "rgb(212, 149, 97)";
       } else {
         var obj = {
           user_email: this.email,
           from_name: this.name,
-          message_html: this.text,
-          to_name: "Natain Bogdan",
+          message: this.text,
+          to_name: "Fredrick Karuri",
         };
 
         emailjs
@@ -164,12 +164,15 @@ export default {
             config.emailjs.serviceID,
             config.emailjs.templateID,
             obj,
-            config.emailjs.userID
+            config.emailjs.PublicKey,
+
+            // config.emailjs.userID
+            
           )
           .then(
             (result) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Thanks! Message recieved.";
+              this.snackbarMessage = "Thankyou! Message received.";
               this.snackbarColor = "#1aa260";
 
               this.email = "";
