@@ -4,7 +4,7 @@
     :class="{
       'bg-light': !nightMode,
       'bg-dark2': nightMode,
-      'text-light': nightMode,
+      'text-light': nightMode
     }"
   >
     <div class="container">
@@ -28,42 +28,49 @@
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="education" :nightMode="nightMode" />
         </div>
+        
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="experience" :nightMode="nightMode" />
+        </div>
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+          <Timeline :data="certifications" :nightMode="nightMode" />
         </div>
       </div>
     </div>
   </div>
 </template>
 
-
 <script>
-import Timeline from "./helpers/Timeline";
-import info from "../../info";
+import Timeline from './helpers/Timeline'
+import info from '../../info'
 
 export default {
-  name: "About",
+  name: 'About',
   components: {
-    Timeline,
+    Timeline
   },
   props: {
     nightMode: {
-      type: Boolean,
-    },
+      type: Boolean
+    }
   },
-  data() {
+  data () {
     return {
       education: {
-        title: "Education",
-        data: info.education,
+        title: 'Education',
+        data: info.education
+      },
+      certifications: {
+        title: 'Certifications',
+        data: info.certifications
       },
       experience: {
-        title: "Experience",
-        data: info.experience,
-      },
-    };
-  },
-};
+        title: 'Experience',
+        data: info.experience
+      }
+    }
+  }
+}
 </script>
 
 <style scoped>

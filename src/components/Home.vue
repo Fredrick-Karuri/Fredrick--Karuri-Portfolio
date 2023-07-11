@@ -77,8 +77,8 @@ export default {
   data() {
     return {
       picture: info.flat_picture,
-      description:  "I'm a Web Developer & UI/UX Designer with a passion for building projects that are used routinely. I Build applications in JavaScript. I Currently are a Computer Science student. I have a high affinity for a good user experience.",
-      // description:  info.description,
+      // description:  "I'm a Web Developer & UI/UX Designer with a passion for building projects that are used routinely. I Build applications in JavaScript. I Currently are a Computer Science student. I have a high affinity for a good user experience.",
+      description:  info.description,
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,

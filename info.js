@@ -1,7 +1,7 @@
 let info = {
   name: 'Fredrick Karuri',
   logo_name: 'Fredrick',
-  flat_picture: require('/assets/freddy.jpg'),
+  flat_picture: require('/assets/freddy.png'),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,23 +9,29 @@ let info = {
     }
   },
   description:
-    "I'm a Web Developer & UI/UX Designer with a passion for building projects that are used routinely. I Build applications in JavaScript. I Currently are a Computer Science student. I have a high affinity for a good user experience. ",
+    'I am Fredrick Karuri, a Software Engineer based in Nairobi, Kenya. With expertise in programming languages like Python and JavaScript, I am passionate about creating intuitive and engaging digital experiences. My proficiency extends to front-end development technologies such as HTML, CSS, Vue, and React. With familiarity in version control systems like Git, I strive to deliver high-quality solutions that improve user experiences. ',
   links: {
     linkedin: 'https://www.linkedin.com/in/fredrick-karuri-37a5681a7/',
     github: 'https://github.com/Fredrick-Karuri',
 
-    resume: 'https://drive.google.com/drive/u/0/folders/13B6M5LOTkvR6zG5fj_5e650lbMrDvFu9'
+    resume:
+      'https://drive.google.com/drive/u/0/folders/13B6M5LOTkvR6zG5fj_5e650lbMrDvFu9'
   },
   education: [
     {
-      name: 'Chartaby Academy',
-      place: 'Nyahururu',
-      date: 'Apr, 2010 - Nov, 2014',
-      degree: 'Kenya Certificate of Primary Education',
-      gpa: '',
-
+      name: 'Daystar University',
+      course: 'Applied computer Science',
+      place: 'Mavoko/Athi River',
+      date: 'Aug, 2019 - Oct, 2023',
+      degree: 'Bachelors in Applied computer Science',
+      // gpa: '3.2/4.0',
+      description: '',
       skills: [
-     
+        'Skills gained:',
+        'JavaScript',
+        'OOP',
+        'Software Engineering',
+        ' Human-Centered Design'
       ]
     },
     {
@@ -42,35 +48,41 @@ let info = {
         // "Communicate findings using models, charts and graphs.",
         // "Communicate research findings using clear, accurate, concise writing.",
       ]
-    },
-    {
-      name: 'Daystar University',
-      course: 'Applied computer Science',
-      place: 'Mavoko/Athi River',
-      date: 'May, 2021 - Oct, 2021',
-      degree: 'Bachelors in Applied computer Science',
-      // gpa: '3.2/4.0',
-      description: '',
-      skills: ['Skills gained:', 'HTML5', 'CSS3', 'JavaScript', 'OOP']
     }
   ],
+
+certifications:[
+  {
+    name: 'Google User Experience '
+  }
+],
   experience: [
     {
-      name: 'Freelancer',
+      name: 'ShopOkoa',
       place: 'Nairobi, Kenya',
-      date: 'Apr, 2022 - Present',
-      position: 'Full Stack Web Developer',
+      date: 'Feb, 2023 - Present',
+      position: 'Software Engineer & User Experience Designer',
       description:
-        'Developing Front-end website architecture. Designing user interactions on web pages. Ensuring responsiveness of applications. Doing web design.Seeing through a project from conception to finished product. Staying abreast of developments in web applications and programming languages. Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.',
+        "Collaborated with developers to implement UI components and user flows, improving the e-commerce platform's user experience. Conducted user research and usability testing to inform design decisions. Created wireframes and prototypes using Figma to visualize design concepts and iterate on solutions.",
       skills: [
-        'HTML5',
-        'CSS3',
-        'JavaScript',
-        'Bootstrap',
-        'React.js',
-        'Vue.js',
-        'Python',
-        'Django'
+        'User Experience Design',
+        'User Research',
+        'Figma',
+        'Prototyping',
+        'React.js'
+      ]
+    },
+    {
+      name: 'Student Intern',
+      place: 'Nairobi, Kenya',
+      date: 'Jan, 2020 - Feb, 2023',
+      position: 'Computer Lab Assistant',
+      description:
+        'Assisted in computer hardware and software maintenance, ensuring optimal functionality of computer labs. Managed and maintained resources, effectively troubleshooting and resolving technical issues. Decreased lab downtime by 25% and improved student satisfaction by 15%.',
+      skills: [
+        'Computer Hardware Maintenance',
+        'Troubleshooting',
+        'Software Management'
       ]
     },
 
@@ -93,17 +105,22 @@ let info = {
   skills: [
     {
       title: 'languages',
-      info: ['Javascript', 'CSS', 'HTML5'],
+      info: ['Javascript', 'Python', 'Vue.js', 'React.js'],
       icon: 'fa fa-code'
     },
     {
-      title: 'data Science',
-      info: ['Python'],
+      title: 'AI&ML',
+      info: ['Python', 'Data Analysis', 'Feature Engineering'],
       icon: 'fa fa-cubes'
     },
     {
-      title: 'web technologies',
-      info: ['Vue.js', 'React.js', 'Node.js', 'HTML', 'CSS'],
+      title: 'Software Development',
+      info: [
+        'Software Development Life Cycle',
+        'JIRA',
+        'Agile Methodologies',
+        'Git'
+      ],
       icon: 'fas fa-laptop-code'
     },
     {
@@ -118,7 +135,13 @@ let info = {
     },
     {
       title: 'design',
-      info: ['Illustrator', 'Figma', 'Photoshop', 'CorelDraw'],
+      info: [
+        'Human-Centered Design',
+        'Figma',
+        'Photoshop',
+        'Prototyping',
+        'User Journeys'
+      ],
       icon: 'fa fa-pencil-square-o'
     }
   ],
@@ -144,15 +167,12 @@ let info = {
       github: 'https://github.com/Fredrick-Karuri/e_commerce',
       visit: 'https://artohm.netlify.app/',
       description:
-        'I made this site for my stickers business. Check it and even order stickers today!  '
+        'A website for selling artworks. It is built using CommerceJS, React.js and Netlify.    '
     },
 
     {
       name: 'Lavington Designers',
       pictures: [
-        // {
-        //   img: require("./src/assets/portfolio/clumpr/logo.png")
-        // },
         {
           img: require('./src/assets/portfolio/Lavington/lavi1.jpg')
         },
@@ -167,6 +187,21 @@ let info = {
       visit: '',
       description:
         ' It is a design site, where one can see the various designs done and reach out for a design  '
+    },
+    // 2D Paint Program: Developed as part of a coursework project, a 2D Paint Program using C++ and OpenGL, with features similar to MS Paint.
+    {
+      name: '2D Paint Program',
+      pictures: [
+        {
+          img: require('./src/assets/portfolio/2DPaint/paint.png')
+        }
+      ],
+      technologies: ['C++', 'OpenGL'],
+      category: '2D Paint Program',
+      github: 'https://github.com/Fredrick-Karuri/OpenGLPaintProgram',
+      date: 'Aug 2022',
+      description:
+        'This is a basic paint program in 2D written in C++ and OpenGL. It has been tested on Windows and Linux. It equates to MS paint.'
     },
     {
       name: 'InfoYou',
@@ -190,18 +225,17 @@ let info = {
         'A Blog site. A crafted site to incorporate artists with original content and readers with an affinity for great content!'
     }
   ],
-  design:[
-    
-  ],
+  design: [],
   recommendations: [
     {
       title:
-        'In his internship, Fredrick has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.',
-      author: '',
-      position: '',
-      company: '',
-      location: ' '
+        'In his internship, Fredrick has demonstrated excellent learning ability, and with a dedicated, task oriented approach. ',
+      author: 'Duncan ',
+      position: 'CTO ',
+      company: 'ShopOkoa',
+      location: 'Nairobi, Kenya'
     },
+    
     {
       title:
         'I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.',

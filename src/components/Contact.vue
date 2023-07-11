@@ -113,7 +113,9 @@
 </template>
 
 <script>
-import config from "../../config";
+// import config from "../../config";
+// import config from '@/config'
+
 import emailjs from "emailjs-com";
 
 import Snackbar from "./helpers/Snackbar";
