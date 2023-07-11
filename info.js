@@ -15,7 +15,7 @@ let info = {
     github: 'https://github.com/Fredrick-Karuri',
 
     resume:
-      'https://drive.google.com/drive/u/0/folders/13B6M5LOTkvR6zG5fj_5e650lbMrDvFu9'
+      'https://drive.google.com/file/d/12iNeAnlp3dCQTA2Rr9bM1a-AOh8ziZFY/view?usp=sharing'
   },
   education: [
     {
@@ -51,11 +51,11 @@ let info = {
     }
   ],
 
-certifications:[
-  {
-    name: 'Google User Experience '
-  }
-],
+  certifications: [
+    {
+      name: 'Google User Experience '
+    }
+  ],
   experience: [
     {
       name: 'ShopOkoa',
@@ -87,19 +87,13 @@ certifications:[
     },
 
     {
-      name: 'Design',
-      place: 'Nairobi, Kenya',
-      date: 'Oct, 2021 - Present',
+      name: 'Forage',
+      place: 'Online',
+      date: 'Feb 2023',
       position: 'Designer',
       description:
-        'Designing Stickers which I sell. Designing posters. Designing website and application wireframes in figma',
-      skills: [
-        'Adobe Photoshop',
-        'Adobe Illustrator',
-        'Figma',
-        'CorelDraw',
-        'CorelPhotos'
-      ]
+        'Developed software solutions using Java, data structures, optimization techniques, UML modeling, and SQL database management. Achieved a 20% reduction in production time and 15% improvement in system performance. Created use cases and UML diagrams (activity, sequence, class) to facilitate communication between teams, stakeholders, and end-users.',
+      skills: ['Java', 'UML', 'Modeling', 'SQL', 'Software Development']
     }
   ],
   skills: [
@@ -147,6 +141,21 @@ certifications:[
   ],
   portfolio: [
     {
+      name: 'shopokoa',
+      pictures: [
+        {
+          img: require('./src/assets/portfolio/shopokoa/shopokoa.png')
+        }
+      ],
+      technologies: ['React.js', 'JavaScript', 'Tailwind'],
+      category: 'Web App',
+      visit: 'https://www.shopokoa.com/',
+      // add multiple paragraphs below
+      description:
+        "As an integral member of the team, I played a key role in the design and development of the ShopOkoa website. ShopOkoa is an innovative credit platform that allows users to shop and pay at their convenience. For the development of the website, we utilized React, a popular JavaScript library, to create a dynamic and interactive user interface. This enabled us to build a responsive website that seamlessly adapts to different screen sizes and devices. To enhance the visual appeal and user experience, we employed Tailwind CSS, a utility-first CSS framework. This allowed us to efficiently style the website and ensure consistency across all pages.The ShopOkoa website project holds great significance in my portfolio as it showcases my proficiency in both design and development, as well as my capacity to collaborate effectively. It demonstrates my ability to create user-centric experiences while utilizing modern technologies such as React and Tailwind CSS."
+    },
+
+    {
       name: 'ArtOhm',
       pictures: [
         {
@@ -167,7 +176,7 @@ certifications:[
       github: 'https://github.com/Fredrick-Karuri/e_commerce',
       visit: 'https://artohm.netlify.app/',
       description:
-        'A website for selling artworks. It is built using CommerceJS, React.js and Netlify.    '
+        'A website that allows users to buy art. The site features a shopping cart, a checkout process, and payment gateway integration'
     },
 
     {
@@ -186,9 +195,8 @@ certifications:[
       date: 'May 2022-',
       visit: '',
       description:
-        ' It is a design site, where one can see the various designs done and reach out for a design  '
+        ' A platform for artists and readers to share their work and connect with others. The site features a user-friendly interface and a variety of tools for artists,   '
     },
-    // 2D Paint Program: Developed as part of a coursework project, a 2D Paint Program using C++ and OpenGL, with features similar to MS Paint.
     {
       name: '2D Paint Program',
       pictures: [
@@ -201,7 +209,7 @@ certifications:[
       github: 'https://github.com/Fredrick-Karuri/OpenGLPaintProgram',
       date: 'Aug 2022',
       description:
-        'This is a basic paint program in 2D written in C++ and OpenGL. It has been tested on Windows and Linux. It equates to MS paint.'
+        'A paint program with features similar to MS Paint. The program allows users to create and edit images, use a variety of drawing tools, and save their work in different formats. It has been tested on Windows and Linux.'
     },
     {
       name: 'InfoYou',
@@ -229,13 +237,13 @@ certifications:[
   recommendations: [
     {
       title:
-        'In his internship, Fredrick has demonstrated excellent learning ability, and with a dedicated, task oriented approach. ',
+        "I was impressed by Fredrick's collaborative approach and attention to detail. He consistently delivered high-quality designs that exceeded expectations. ",
       author: 'Duncan ',
       position: 'CTO ',
       company: 'ShopOkoa',
       location: 'Nairobi, Kenya'
     },
-    
+
     {
       title:
         'I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.',

@@ -32,9 +32,9 @@
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="experience" :nightMode="nightMode" />
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
+        <!-- <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <Timeline :data="certifications" :nightMode="nightMode" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

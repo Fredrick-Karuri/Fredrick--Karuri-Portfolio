@@ -58,7 +58,7 @@
         <v-tab title="design">
           <div class="row">
             <div
-              v-for="(design, idx) in desgin_info"
+              v-for="(design, idx) in design_info"
               :key="idx"
               :class="{ 'mt-4': idx === 0 ? true : true }"
               class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
@@ -69,7 +69,7 @@
                 fixed-height="300px"
                 :bullets="false"
                 slide-content-outside="bottom"
-                style="position: aboslute"
+                style="position: absolute"
                   @click.prevent="showDesignModalFn(design)"
 
               >
@@ -154,6 +154,7 @@ export default {
     VueperSlides,
     VueperSlide,
     DesignModal,
+    Carousel
   },
   props: {
     nightMode: {
@@ -163,7 +164,7 @@ export default {
   data() {
     return {
       all_info: info.portfolio,
-      desgin_info: info.portfolio_design,
+      design_info: info.portfolio_design,
       portfolio_info: [],
       showModal: false,
       showDesignModal: false,
@@ -375,10 +376,10 @@ export default {
   opacity: 1;
 }
 
-/deep/.vueperslide {
+.vueperslide {
   border-radius: 10px !important;
 }
-/deep/.vueperslides__parallax-wrapper {
+.vueperslides__parallax-wrapper {
   border-radius: 10px !important;
 }
 
@@ -398,7 +399,7 @@ export default {
   border-color: #669db3ff;
   color: white;
 }
-/deep/ .vueperslides__arrow {
+.vueperslides__arrow {
   outline: none !important;
   border: none;
   color: grey;
